@@ -1,5 +1,5 @@
 {
-  "name": "@baronha/react-native-photo-editor",
+  "name": "@daumis102/react-native-photo-editor",
   "version": "1.1.5",
   "description": "🌄 Image editor using native modules for iOS and Android",
   "main": "lib/commonjs/index",
@@ -36,15 +36,15 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/baronha/react-native-photo-editor",
-  "author": "Baron Ha. <baronn.ha@gmail.com> (https://github.com/baronha)",
+  "repository": "https://github.com/Daumis102/react-native-photo-editor",
+  "author": "Baron Ha. <baronn.ha@gmail.com> (https://github.com/baronha) and Daumantas P. <daumis05@gmail.com> (https://github.com/daumis102)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/baronha/react-native-photo-editor/issues"
+    "url": "https://github.com/Daumis102/react-native-photo-editor/issues"
   },
-  "homepage": "https://github.com/baronha/react-native-photo-editor#readme",
+  "homepage": "https://github.com/Daumis102/react-native-photo-editor#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
@@ -148,5 +148,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
   }
 }
